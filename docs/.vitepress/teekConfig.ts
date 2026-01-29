@@ -1,0 +1,27 @@
+import { defineTeekConfig } from "vitepress-theme-teek/config";
+import { version } from "vitepress-theme-teek/es/version";
+
+export const teekConfig = defineTeekConfig({
+  teekHome: false, // 是否开启博客首页
+  vpHome: true, // 是否隐藏 VP 首页
+  sidebarTrigger: true, // 是否开启侧边栏折叠功能
+  author: { name: "半只大象", link: "https://github.com/HalfAnElephant" },
+  footerInfo: {
+    theme: {
+      name: `Theme By OneTJ@${version}`,
+    },
+    copyright: {
+      createYear: 2025,
+      suffix: "OneTJ",
+    },
+  },
+  codeBlock: {
+    copiedDone: (TkMessage) => TkMessage.success("复制成功！"),
+  },
+  articleShare: { enabled: true },
+  vitePlugins: {
+    sidebarOption: {
+      initItems: false,
+    },
+  },
+});
