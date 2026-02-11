@@ -110,7 +110,7 @@ export default defineConfig({
           { text: "标签页", link: "/tags" },
         ],
       },
-      { text: "✨ 赞赏", link: "/personal/" },
+      { text: "✨ 项目组", link: "/personal/" },
     ],
     socialLinks: [
       {
