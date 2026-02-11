@@ -100,10 +100,6 @@ export default defineConfig({
         items: [
           { text: "归档页", link: "/archives" },
           { text: "清单页", link: "/articleOverview" },
-          {
-            text: "风险链接提示页",
-            link: "/risk-link?target=https://vp.teek.top",
-          },
           { text: "分类页", link: "/categories" },
           { text: "标签页", link: "/tags" },
         ],
@@ -122,7 +118,7 @@ export default defineConfig({
     editLink: {
       text: "在 GitHub 上编辑此页",
       pattern:
-        "https://github.com/oierxjn/OneTJ/edit/master/docs/:path",
+        "https://github.com/HalfAnElephant/OneTJ-Website/edit/main/docs/:path",
     },
   },
   vite: {
