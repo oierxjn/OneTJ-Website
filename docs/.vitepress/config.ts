@@ -104,6 +104,7 @@ export default defineConfig({
           { text: "标签页", link: "/tags" },
         ],
       },
+      { text: "下载应用", link: "/download" },
       { text: "✨ 项目组", link: "/personal/" },
     ],
     socialLinks: [
