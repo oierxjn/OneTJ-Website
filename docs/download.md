@@ -3,7 +3,9 @@ title: 下载应用
 date: 2026-09-29 13:34:31
 permalink: /download
 description: 下载 OneTJ（一统同济）最新发布包。
-article: false
+author:
+  name: oierxjn
+  link: https://github.com/oierxjn
 ---
 
 <!-- TODO（填链接）：把下面两处占位链接换成真实下载地址后删掉本行注释 -->
