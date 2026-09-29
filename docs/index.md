@@ -12,6 +12,9 @@ hero:
     - theme: alt
       text: 配置
       link: /reference/config/pubspec
+    - theme: alt
+      text: 下载应用
+      link: /download
   image:
     src: /foreground.png
     alt: OneTJ
